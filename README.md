@@ -26,9 +26,9 @@ Things you need to le able to install these Templates and Google for How to inst
 ### Installing
 
 ```
-Just go to : wp-Admin >> Gravity Forms >> Import / Export >> Import Forms.
-Choose File >> Gravity-Forms.JSON (File in Github Import Folder)
-Click [Import] & Done
+1-Just go to : wp-Admin >> Gravity Forms >> Import / Export >> Import Forms.
+2-Choose File >> Gravity-Forms.JSON (File in Github Import Folder)
+3-Click [Import] & Done
 ```
 
 Now use the form and add an entry to it so that we can generate PDFs.
@@ -36,29 +36,34 @@ Now use the form and add an entry to it so that we can generate PDFs.
 Befor Generation of PDFs, we need to configure PDF Templates in Gravity PDF.
 For configuration of pdf templates use the following method.
 ```
-Copy 'PHP files' and 'images' folder to 'Wordpress/wp-content/uploads/PDF_EXTENDED_TEMPLATES/' (Here)
-Then go to : wp-Admin >> Gravity Forms >> Forms >> Student / Resident Registration (Select any Form for which you would like to use PDF).
-Click : Settings >> PDF >> Student 
+1-Copy 'PHP files' and 'images' folder to 'Wordpress/wp-content/uploads/PDF_EXTENDED_TEMPLATES/' (Here)
+2-Then go to : wp-Admin >> Gravity Forms >> Forms >> Student / Resident Registration (Select any Form for which you would like to use PDF).
+3-Click : Settings >> PDF >> Student 
 (Add New if you want to but if you imported .JSON file you need not to create a new pdf and set it. Its already set and being used from 'PDF_EXTENDED_TEMPLATES')
-Choose pdf template from Template dropdown or click Advanced to open advanced menu.
-In Advanced menu you can upload Templates by uploading single ZIP package of  [PHP files and 'images' folder]
+4-Choose pdf template from Template dropdown or click Advanced to open advanced menu.
+5-In Advanced menu you can upload Templates by uploading single ZIP package of  [PHP files and 'images' folder]
 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Now you are ready to test download a PDF
+## Download the PDFs
 
-## Running the tests
+Go to Form Entries and select any entry or click on 'view pdf' to download pdf.
+Check the PDF. It is superb & elegant .
+### Customizing Templates
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+You can customize templates to handle data from your own cutom form.
+Just check PHP Array by visiting form entry's pdf download link and adding /?data=1 in front of it.
+My download link is:
+```
+localhost/wp/pdf/5922ebc91f8c9/6/
 
 ```
-Give an example
+So my PHP Array can be viewed by adding '?data=1'
 ```
+localhost/wp/pdf/5922ebc91f8c9/6/?data=1
 
+```
 ### And coding style tests
 
 Explain what these tests test and why
