@@ -34,9 +34,10 @@ Things you need to le able to install these Templates and Google for How to inst
 Now use the form and add an entry to it so that we can generate PDFs.
 
 Befor Generation of PDFs, we need to configure PDF Templates in Gravity PDF.
+
 For configuration of pdf templates use the following method.
 ```
-1-Copy 'PHP files' and 'images' folder to 'Wordpress/wp-content/uploads/PDF_EXTENDED_TEMPLATES/' (Here)
+1-Copy 'PHP files' from git repository and 'images' folder to 'Wordpress/wp-content/uploads/PDF_EXTENDED_TEMPLATES/' (Here)
 2-Then go to : wp-Admin >> Gravity Forms >> Forms >> Student / Resident Registration (Select any Form for which you would like to use PDF).
 3-Click : Settings >> PDF >> Student 
 (Add New if you want to but if you imported .JSON file you need not to create a new pdf and set it. Its already set and being used from 'PDF_EXTENDED_TEMPLATES')
@@ -54,27 +55,21 @@ Check the PDF. It is superb & elegant .
 
 You can customize templates to handle data from your own cutom form.
 Just check PHP Array by visiting form entry's pdf download link and adding /?data=1 in front of it.
+
 My download link is:
 ```
 localhost/wp/pdf/5922ebc91f8c9/6/
-
 ```
 So my PHP Array can be viewed by adding '?data=1'
 ```
 localhost/wp/pdf/5922ebc91f8c9/6/?data=1
-
 ```
-### And coding style tests
+Just open any pdf template and add your custom CSS styles to style the PDF content.
 
-Explain what these tests test and why
+Change PDF data by changing $form_data[] array in php. 
+Remember $form_data[] will hold form data as shown in ?data=1 example.
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+You cand change $form_data[field][field key] as required and used in ?data=1 of your form.
 
 ## Built With
 
