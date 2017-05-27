@@ -9,11 +9,11 @@ These instructions will get you a copy of the project / Templates (specifically)
 
 Things you need to install the templates and Google for How to install them
 
-```
+
 [Wordpress](https://wordpress.og) -My Favourite CMS | Place where Gravity Forms is to be used.
 [Gravity Forms for Wordpress](http://www.gravityforms.com) -Premium Plugin Buy from Link
 [Gravity PDF](https://gravitypdf.com) -Free Addon for Gravity Forms
-```
+
 
 ### Installing
 
