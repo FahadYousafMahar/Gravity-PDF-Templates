@@ -38,8 +38,10 @@ For configuration of pdf templates use the following method.
 ```
 Copy 'PHP files' and 'images' folder to 'Wordpress/wp-content/uploads/PDF_EXTENDED_TEMPLATES/' (Here)
 Then go to : wp-Admin >> Gravity Forms >> Forms >> Student / Resident Registration (Select any Form for which you would like to use PDF).
-Click : Settings >> PDF >> Student (Add New if you want to but if you imported .JSON file you need not to create a new pdf and set it. Its already set and being used from 'PDF_EXTENDED_TEMPLATES')
-
+Click : Settings >> PDF >> Student 
+(Add New if you want to but if you imported .JSON file you need not to create a new pdf and set it. Its already set and being used from 'PDF_EXTENDED_TEMPLATES')
+Choose pdf template from Template dropdown or click Advanced to open advanced menu.
+In Advanced menu you can upload Templates by uploading single ZIP package of  [PHP files and 'images' folder]
 
 ```
 
