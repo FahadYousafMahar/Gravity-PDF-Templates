@@ -71,6 +71,7 @@ Remember $form_data[ ] will hold form data as shown in ?data=1 example.
 
 You cand change $form_data[field][field key] as required and used in ?data=1 of your Form to show your Form field's values
 
+If you are stuck anywhere or need any help you can ask me or feel free to check Gravity PDF documentation.
 ## Built With
 
 * [BRACKETS](http://www.brackets.io/) - The Best Code Editor in Web & World (Ranked by ME - the Author)
