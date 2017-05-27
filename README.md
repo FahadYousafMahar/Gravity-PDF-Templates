@@ -26,15 +26,21 @@ Things you need to le able to install these Templates and Google for How to inst
 ### Installing
 
 ```
-Just go to wp-Admin >> Gravity Forms >> Import / Export >> Import Forms.
+Just go to : wp-Admin >> Gravity Forms >> Import / Export >> Import Forms.
 Choose File >> Gravity-Forms.JSON (File in Github Import Folder)
 Click [Import] & Done
 ```
 
-And repeat
+Now use the form and add an entry to it so that we can generate PDFs.
 
+Befor Generation of PDFs, we need to configure PDF Templates in Gravity PDF.
+For configuration of pdf templates use the following method.
 ```
-until finished
+Copy 'PHP files' and 'images' folder to 'Wordpress/wp-content/uploads/PDF_EXTENDED_TEMPLATES/' (Here)
+Then go to : wp-Admin >> Gravity Forms >> Forms >> Student / Resident Registration (Select any Form for which you would like to use PDF).
+Click : Settings >> PDF >> Student (Add New if you want to but if you imported .JSON file you need not to create a new pdf and set it. Its already set and being used from 'PDF_EXTENDED_TEMPLATES')
+
+
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
