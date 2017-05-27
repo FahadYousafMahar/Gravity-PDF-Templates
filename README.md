@@ -3,7 +3,10 @@ FREE PDF templates to use with Gravity PDF in Wordpress Gravity Forms.
 
 ### History
 When I was working for Registeration Letter / Data Sheet PDFs to be stored and emailed to users on my Wordpress Project,
+
 I couldn't find FREE Gravity PDF Templates so I made some and provided them to you on GitHub.
+
+You can save 20$ by using these Templates
 
 ## Getting Started
 These instructions will get you a copy of the project / Templates (specifically) with the gravity form used in examples to test and later on develop the templates on your localmachine or live wordpress site.
@@ -20,10 +23,10 @@ Things you need to le able to install these Templates and Google for How to inst
 
 ### Installing
 
-Here's How to install the form & form templates.
-Just go to Gravity Forms >> Import & Export
 ```
-Give the example
+Just go to wp-Admin >> Gravity Forms >> Import / Export >> Import Forms.
+Choose File >> Gravity-Forms.JSON (File in Github Import Folder)
+Click [Import] & Done
 ```
 
 And repeat
