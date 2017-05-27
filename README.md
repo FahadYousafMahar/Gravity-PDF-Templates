@@ -1,5 +1,6 @@
 # gravity-pdf-templates
 PDF templates to use with Gravity PDF in Wordpress Gravity Forms.
+
 When I was working for a Registeration Letter / Data Form PDFs to be stored and emailed to users I couldn't find free Gravity PDF Templates so I made some and provided them to you on GitHub.
 
 ## Getting Started
