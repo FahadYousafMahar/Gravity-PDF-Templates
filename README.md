@@ -51,6 +51,7 @@ Now you are ready to test download a PDF
 
 Go to Form Entries and select any entry or click on 'view pdf' to download pdf.
 Check the PDF. It is superb & elegant .
+![PDF Template](/images/MFHS-Student-Data.png?raw=true "PDF Screenshot")
 ### Customizing Templates
 
 You can customize templates to handle data from your own cutom form.
