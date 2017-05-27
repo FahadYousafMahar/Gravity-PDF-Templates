@@ -66,10 +66,10 @@ localhost/wp/pdf/5922ebc91f8c9/6/?data=1
 ```
 Just open any pdf template and add your custom CSS styles to style the PDF content.
 
-Change PDF data by changing $form_data[] array in php. 
-Remember $form_data[] will hold form data as shown in ?data=1 example.
+Change PDF data by changing $form_data[ ] array in php. 
+Remember $form_data[ ] will hold form data as shown in ?data=1 example.
 
-You cand change $form_data[field][field key] as required and used in ?data=1 of your form.
+You cand change $form_data[field][field key] as required and used in ?data=1 of your Form to show your Form field's values
 
 ## Built With
 
