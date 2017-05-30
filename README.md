@@ -1,4 +1,4 @@
-# gravity-pdf-templates
+# Free Gravity pdf Templates
 FREE PDF templates to use with Gravity PDF in Wordpress Gravity Forms.
 
 ### History
