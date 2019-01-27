@@ -1,6 +1,10 @@
 # Free Gravity pdf Templates
 FREE PDF templates to use with Gravity PDF in Wordpress Gravity Forms.
 
+![Contributors](https://img.shields.io/github/contributors/fahadyousafmahar/gravity-pdf-templates.svg)
+![License](https://img.shields.io/github/license/fahadyousafmahar/gravity-pdf-templates.svg)
+![Repo Size](https://img.shields.io/github/repo-size/fahadyousafmahar/gravity-pdf-templates.svg)
+
 ### History
 When I was working for Registration Letter / Data Sheet PDFs to be stored and emailed to users on my Wordpress Project,
 
@@ -12,9 +16,6 @@ You can save 20$ by using these Templates
 These instructions will get you a copy of the project / Templates (specifically) with the gravity form used in examples to test and later on develop the templates on your localmachine or live wordpress site.
 
 ### Prerequisites
-
-Things you need to le able to install these Templates and Google for How to install them ?
-
 
 [Wordpress](https://wordpress.og) -My Favourite CMS | Place where Gravity Forms is to be used
 
@@ -73,13 +74,10 @@ Remember $form_data[ ] will hold form data as shown in ?data=1 example.
 You cand change $form_data[field][field key] as required and used in ?data=1 of your Form to show your Form field's values
 
 If you are stuck anywhere or need any help you can ask me or feel free to check Gravity PDF documentation.
-## Built With
-
-* [BRACKETS](http://www.brackets.io/) - The Best Code Editor in Web & World (Ranked by ME - the Author)
 
 ## Authors
 
-* **Fahad Yousaf Mahar** - *Whole Work* - [WebIT.pk](https://webit.pk)
+* **Fahad Yousaf Mahar** - [WebIT.pk](https://webit.pk)
 
 See also the list of [contributors](https://github.com/FahadYousafMahar/gravity-pdf-templates/graphs/contributors) who participated in this project.
 
