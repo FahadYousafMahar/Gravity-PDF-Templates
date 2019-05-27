@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Template Name: MFHS Student Card PDF
+ * Template Name: Template One
  * Version: 1.0
  * Description: Developed By WebIT.pk
  * Author: Fahad Yosuaf Mahar
@@ -109,5 +109,5 @@ th {
 
 <p class="center"><img src="<?php echo PDF_TEMPLATE_LOCATION; ?>images/sign.png"></p>
 <footer>
-<h3>Copyright &copy; <?php echo date('Y'); ?> - MFHS | Muslim Foundation of Health Sciences</h3>
-<p><a hre="www.MFHSpak.org">WWW.MFHSPAK.ORG</a></p></footer><p class="powered">Powered by WebIT.pk</p>
+<h3>Copyright &copy; <?php echo date('Y'); ?> - Your Organization </h3>
+<p><a href="YourOrganization.com"> Your Organization </a></p></footer><p class="powered">Thanks to Fahad Yousaf</p>
