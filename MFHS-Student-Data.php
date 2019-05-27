@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Template Name: MFHS Student Data PDF
+ * Template Name: Template 2 PDF
  * Version: 1.1.3
  * Description: Developed By WebIT.pk
  * Author: Fahad Yosuaf Mahar
@@ -81,7 +81,7 @@ th {
 <table>
 <tr><td class="center">
 <img height="150px" src="<?php echo PDF_TEMPLATE_LOCATION; ?>images/logo.jpg">
-</td><td><center><h2>MUSLIM FOUNDATION OF HEALTH SCIENCES</h2></center>
+</td><td><center><h2>Your Organization</h2></center>
 </td></tr></table>
 <h1>MFHS {Registration Type:2} DATASHEET</h1>
 <h3>REGISTRATION #: MFHS-<?php echo date('mdY',strtotime($form_data['date_created_usa'])); ?>{entry_id}</h3>
@@ -118,8 +118,8 @@ th {
 <p>Session: <?php echo $form_data['field']['Session']; ?></p>
 
 <p><strong>What is your Aim in Life ?</strong><br><?php echo $form_data['field']['What is your Aim in Life ?']; ?></p>
-<p><strong>Why you want to be a part of MFHS ?</strong><br><?php echo $form_data['field']['Why you want to be a part of MFHS ?']; ?></p>
+<p><strong>Why you want to be a part of Organization ?</strong><br><?php echo $form_data['field']['Why you want to be a part of MFHS ?']; ?></p>
 
 <footer>
-<h3>Copyright &copy; <?php echo date('Y'); ?> - MFHS | Muslim Foundation of Health Sciences</h3>
-<p><a hre="www.MFHSpak.org">WWW.MFHSPAK.ORG</a></p></footer><p class="powered">Powered by WebIT.pk</p>
+<h3>Copyright &copy; <?php echo date('Y'); ?> - Your Organization </h3>
+<p><a href="#">Your Organization</a></p></footer><p class="powered">Thanks to Fahad Yousaf</p>
