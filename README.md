@@ -10,7 +10,7 @@ When I was working for Registration Letter / Data Sheet PDFs to be stored and em
 
 I couldn't find FREE Gravity PDF Templates so I made some and provided them to you on GitHub.
 
-You can save 20$ by using these Templates
+You can save some bucks by using these templates
 
 ## Getting Started
 These instructions will get you a copy of the project / Templates (specifically) with the gravity form used in examples to test and later on develop the templates on your localmachine or live wordpress site.
