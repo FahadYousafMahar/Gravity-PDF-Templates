@@ -109,7 +109,7 @@ th {
 <p><?php echo $form_data['field']['Email']; ?></p>
 <p><?php echo $form_data['field']['Phone Number']; ?></p>
     
-</td><td class="center"><img width="150px" src="<?php echo $form_data['field']['Picture'][0]; ?>">
+</td><td class="center"><img width="150px" src="<?php echo $form_data['field']['Picture']['url']; ?>">
 </td></tr></table>
 <h3>Address: <?php foreach($form_data['field']['Address'] as $address){if ($address != ''){ echo $address.", ";}}?></h3>
 

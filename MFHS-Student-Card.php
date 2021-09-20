@@ -101,7 +101,7 @@ th {
 <p><?php echo $years." Years"; ?></p>
 <p><?php echo $form_data['field']['Email']; ?></p>
 <P><?php echo $form_data['field']['Degree']; ?></P>
-</td><td class="center"><img width="150px" src="<?php echo $form_data['field']['Picture'][0]; ?>">
+</td><td class="center"><img width="150px" src="<?php echo $form_data['field']['Picture']['url']; ?>">
 </td></tr></table>
 <h3>Assalam-u-Alaikum!</h3>
 <p>        We are pleased to inform you that, You have been successfully registered with Muslim Foundation of Health Sciences.</p>
