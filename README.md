@@ -1,5 +1,6 @@
 # Free Gravity pdf Templates
 FREE PDF templates to use with Gravity PDF in Wordpress Gravity Forms.
+![PDF Template](/images/MFHS-Student-Card.png?raw=true "PDF Screenshot")
 
 ![Contributors](https://img.shields.io/github/contributors/fahadyousafmahar/gravity-pdf-templates.svg)
 ![License](https://img.shields.io/github/license/fahadyousafmahar/gravity-pdf-templates.svg)
